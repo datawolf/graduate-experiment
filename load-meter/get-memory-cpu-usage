@@ -1,0 +1,5 @@
+# Run get_memory_usage.sh every one minute.
+# Run get_cpu_usage.sh every one minute.
+
+*/1 * * * * wanglong /home/wanglong/shell/get_memory_usage.sh
+*/1 * * * * wanglong /home/wanglong/shell/get_cpu_usage.sh

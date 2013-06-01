@@ -1,0 +1,12 @@
+virt-install \
+--name ubuntu1 \
+--ram 512 \
+--vcpus 2 \
+--disk /var/lib/libvirt/images/ubuntu1.img,size=8 \
+--cdrom /var/lib/libvirt/images/ubuntu-13.04-server-i386.iso \
+--network bridge=br0  \
+--vnc \
+--noautoconsole \
+--os-type linux \
+--accelerate \
+--hvm

@@ -1,0 +1,12 @@
+virt-install \
+--name win2k8_2 \
+--ram 512 \
+--vcpus 2 \
+--disk /var/lib/libvirt/images/win2k8_2.img,size=8 \
+--cdrom /var/lib/libvirt/images/win2k8.iso \
+--network bridge=br0  \
+--vnc \
+--noautoconsole \
+--os-type windows \
+--accelerate \
+--hvm

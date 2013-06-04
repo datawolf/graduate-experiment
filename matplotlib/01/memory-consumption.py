@@ -17,7 +17,7 @@ plt.subplot(212)             # the second subplot
 plt.plot(data[:,1], 'b-')
 plt.xlabel('Times (min)')
 plt.ylabel('Memory Utilization (%)')
-plt.axis([0, 120, 0.0, 1.0])
+plt.axis([0, 120, 5.0, 20.0])
 plt.grid(True)
 
 

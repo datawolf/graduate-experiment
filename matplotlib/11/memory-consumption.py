@@ -10,14 +10,14 @@ plt.title('System with one Windows vm and one Linux Vms')		# set the figure titl
 plt.plot(data[:,0], 'r-')
 plt.xlabel('Times (min)')
 plt.ylabel('Memory Consumption (MB)')
-plt.axis([0, 120, 150, 300])
+plt.axis([0, 120, 600, 900])
 plt.grid(True)
 
 plt.subplot(212)             # the second subplot
 plt.plot(data[:,1], 'b-')
 plt.xlabel('Times (min)')
 plt.ylabel('Memory Utilization (%)')
-plt.axis([0, 120, 0.0, 1.0])
+plt.axis([0, 120, 20.0, 50.0])
 plt.grid(True)
 
 
